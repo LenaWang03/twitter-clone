@@ -1,0 +1,27 @@
+.post {
+    display: flex;
+    border-bottom: 1px solid #2f3336;
+    padding: 10px;
+    gap: 10px;
+    cursor: pointer;
+}
+.post h4 {
+    margin: 0px;
+}
+
+.post p {
+    margin: 0px;
+}
+.post__name {
+    display: flex;
+}
+.post__name p {
+    color: grey;
+}
+
+.post__footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    color: grey;
+}

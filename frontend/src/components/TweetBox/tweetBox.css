@@ -1,0 +1,38 @@
+.tweetBox {
+    padding: 20px;
+    border-bottom: solid 1px #2f3336;
+}
+
+.tweetBox__input input{
+    border: none;
+    flex: 1;
+    margin-top: 5px;
+    font-size: 19px;
+    background-color: black;
+    color: white;
+    outline: none;
+
+}
+
+.tweetBox_form {
+    display: flex;
+    align-items: start;
+    gap: 10px;
+}
+
+.tweetBox__tweetButton {
+    background-color: var(--twitter-color);
+    border-radius: 100px;
+    padding: 8px 15px;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.tweetBox__Button {
+    display: flex; 
+    justify-content: flex-end; 
+}

@@ -1,0 +1,32 @@
+.feed {
+    flex: 0.5;
+    border-right: 1px solid #2f3336;
+    overflow-y: scroll;
+}
+
+.feed::-webkit-scrollbar {
+    display: none;
+}
+
+.feed__header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 1px solid #2f3336;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(10px);
+}
+
+.feed__header h4 {
+    margin-bottom: 0px;
+}
+
+.feed__showMore {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    color: var(--twitter-color);
+    border-bottom: 1px solid #2f3336;
+}
